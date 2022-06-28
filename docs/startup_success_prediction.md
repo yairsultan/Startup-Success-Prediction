@@ -139,7 +139,7 @@ def extract_companies_urls(html_link):
 
 ### From each HTML page with multiple companies urls, we extracted the urls in to one big dataframe.
 
-![image-2.png](attachment:image-2.png)
+![image-2.png](image-2.png)
 
 
 ```python

@@ -706,7 +706,7 @@ print(len(main_df))
     9210
     
 
-<div style="font-size: 18px">Second, lets see if we can drop duplicate rows.</br>
+<div style="font-size: 18px">Second, lets see if we can drop duplicate rows.<br>
 After removing Nan values we got total of 9210 rows.</div>
 
 
@@ -1004,7 +1004,7 @@ main_df["RAISED"].describe().apply(lambda x: format(x, 'f'))
 
 
 <div style="font-size: 20px">
-Now, lets extract our month and year from 'FUNDED' feature which looks like this "10/2021".</br>
+Now, lets extract our month and year from 'FUNDED' feature which looks like this "10/2021".<br>
 We need to seperate month and year from each string and push them into our dataframe.</div>
 
 
@@ -1163,7 +1163,7 @@ main_df.describe()
 
 
 
-<div style="font-size: 18px">Now we have categorical feature 'BUSINESS_MODEL' that we want to transform to numeric true\false columns :</br>
+<div style="font-size: 18px">Now we have categorical feature 'BUSINESS_MODEL' that we want to transform to numeric true\false columns :<br>
 Buisness model feature has 4 possible categories when there are companies that are characterized by several different models.</div>
 
 
@@ -1203,7 +1203,7 @@ main_df['B2B2C'] = np.where(main_df['B2B2C'],1,0)
 main_df.drop(columns = ['BUSINESS_MODEL'], axis=1, inplace=True)
 ```
 
-<div style="font-size: 18px">'COMPANY_STATUS' is also categorical feature and we want to transform it to numeric true\false columns :</br>
+<div style="font-size: 18px">'COMPANY_STATUS' is also categorical feature and we want to transform it to numeric true\false columns :<br>
 </div>
 
 
@@ -1892,7 +1892,7 @@ main_df.drop(columns = ['IS_ACADEMIC'], axis=1, inplace=True)
     Number of companies with IS_ACADEMIC = True :   0
     
 
-<div style="font-size: 18px">'FUNDING_STAGE', 'EMPLOYEES' and 'PRODUCT_STAGE' are categorical features and we want to convert their values to numeric categories</br> Let's look at our unique values : </div>
+<div style="font-size: 18px">'FUNDING_STAGE', 'EMPLOYEES' and 'PRODUCT_STAGE' are categorical features and we want to convert their values to numeric categories<br> Let's look at our unique values : </div>
 
 
 ```python
@@ -2459,7 +2459,7 @@ plt.show()
     
 
 
-<div style="font-size: 18px">We can see that our outliers graph for numeric columns are much better now!</br>
+<div style="font-size: 18px">We can see that our outliers graph for numeric columns are much better now!<br>
 Data cleaning is finished, le'ts fix our indexes and save the final data frame.</div>
 
 
@@ -2946,11 +2946,11 @@ It can be understood from this graph that the longer a company exists, the more 
 And as we have seen before, companies that raise money are more likely to succeed.
 
 ### We are now trying to test relationships and behaviors between quantitative variables. *
-* We chose to take the columns:</br>
-    ~EMPLOYEES</br>
-    ~NEWS_COUNT</br>
-    ~FOUNDER_COUNT</br>
-    ~INVESTORS_COUNT</br>
+* We chose to take the columns:<br>
+    ~EMPLOYEES<br>
+    ~NEWS_COUNT<br>
+    ~FOUNDER_COUNT<br>
+    ~INVESTORS_COUNT<br>
 
 
 ```python
@@ -3601,11 +3601,11 @@ chi2_contingency(ct1)
 
 
 * We got
-    * 1071.8373864739401 Chi-Square</br>
-    * p_vaule < 0.05</br>
-* We therefore see that there is a relationship between the variables and they are not independent </br>
-    * PRODUCT_STAGE column</br>
-    * EMPLOYEES column</br>
+    * 1071.8373864739401 Chi-Square<br>
+    * p_vaule < 0.05<br>
+* We therefore see that there is a relationship between the variables and they are not independent <br>
+    * PRODUCT_STAGE column<br>
+    * EMPLOYEES column<br>
 * From chi square test we have learned that PRODUCT_STAGE and EMPLOYEES features that the higher number of employees is the higher the product stage is and the opposite claim is also true.
 
 
@@ -3822,7 +3822,7 @@ plt.show()
     
 
 
-### We found the best K for our model!</br>K = 10</br>Accuracy =  0.8745749905553457
+### We found the best K for our model!<br>K = 10<br>Accuracy =  0.8745749905553457
 
 
 ```python
@@ -3990,7 +3990,7 @@ renderTree(decisionTree, all_features)
     
 
 
-### Slight improvement 89% for training and test without overfitting</br>
+### Slight improvement 89% for training and test without overfitting<br>
 We got ourselves a better training accuracy but the test prediction did not improve by a noticiable percentage.
 
 # Naive Bayes

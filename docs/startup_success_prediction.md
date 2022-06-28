@@ -346,18 +346,18 @@ def get_df_companies(df):
 
 ```
 
-<div style="font-size: 35px; text-decoration: underline;">Main company page with some interesting data!</br></br></br></div>
+<div style="font-size: 35px; text-decoration: underline;">Main company page with some interesting data!</div>
 
 ![image-3.png](attachment:image-3.png)
-<div style="font-size: 35px; text-decoration: underline;"></br></br></br></div>
+<div style="font-size: 35px; text-decoration: underline;"></div>
 
-<div style="font-size: 35px; text-decoration: underline;">COMPANY PROFILE data and HTML locators</br></br></br></div>
+<div style="font-size: 35px; text-decoration: underline;">COMPANY PROFILE data and HTML locators</div>
 
 ![image.png](attachment:image.png)
 
-<div style="font-size: 35px; text-decoration: underline;"></br></br></br></div>
+<div style="font-size: 35px; text-decoration: underline;"></div>
 
-<div style="font-size: 35px; text-decoration: underline;">COMPANY FOUNDERS and Funding rounds timeline</br></br></br></div>
+<div style="font-size: 35px; text-decoration: underline;">COMPANY FOUNDERS and Funding rounds timeline</div>
 
 ![image-2.png](attachment:image-2.png)
 

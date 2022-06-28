@@ -394,7 +394,7 @@ concatenated_df.to_csv(filepath, index=False)
 
 # 2. Data cleaning  🧹🧹🧹 
 
-<div style="font-size: 18px">After the scraping process we need to start the cleaning process.</br></div>
+<div style="font-size: 18px">After the scraping process we need to start the cleaning process.</div>
 
 
 ```python
@@ -650,7 +650,7 @@ main_df
 
 
 
-<div style="font-size: 18px">First, Let's look at none values for our companies.</br>
+<div style="font-size: 18px">First, Let's look at none values for our companies.<br>
 We can see that we have up to 709 None values in some columns, so we will start our data cleaning by using dropna.</div>
 
 

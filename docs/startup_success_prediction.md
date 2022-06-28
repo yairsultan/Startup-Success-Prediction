@@ -348,18 +348,18 @@ def get_df_companies(df):
 
 <div style="font-size: 35px; text-decoration: underline;">Main company page with some interesting data!</div>
 
-![image-3.png](attachment:image-3.png)
+![image-3.png](image-3.png)
 <div style="font-size: 35px; text-decoration: underline;"></div>
 
 <div style="font-size: 35px; text-decoration: underline;">COMPANY PROFILE data and HTML locators</div>
 
-![image.png](attachment:image.png)
+![image.png](image.png)
 
 <div style="font-size: 35px; text-decoration: underline;"></div>
 
 <div style="font-size: 35px; text-decoration: underline;">COMPANY FOUNDERS and Funding rounds timeline</div>
 
-![image-2.png](attachment:image-2.png)
+![image-2.png](image-4.png)
 
 ### Now, we are going run in a loop, each iteration will include 100 companies data extracting and we will wait a few seconds so we wont get blocked.
 ### Each iteration is saved in a seperate DataFrame so we can be in control all the time and check the data we are getting. (this step lasted about 48 hours)

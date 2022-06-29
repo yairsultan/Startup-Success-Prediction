@@ -4042,6 +4042,9 @@ We can see that only about 12% SUCCESSFUL..
 ## In conclusion, we have seen that the algorithms that have brought us the best results are Decision Trees and Logistic Regression with about 89% accuracy.
 
 
+#### Credit: part of the code was taken from Data Science course Campus IL
+
+
 ```python
 df.to_csv('Data/companies_df/final_df.csv', index=False)
 ```
